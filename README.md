@@ -6,11 +6,11 @@ This repository contains code for training a deep neural network using PyTorch t
 
 The main components of the project include:
 
-- Data preprocessing: The MNIST dataset is preprocessed using torchvision transforms to normalize the images and convert them into tensors.
-- Model architecture: A deep neural network is implemented using PyTorch's nn.Module class. The architecture consists of multiple layers, including convolutional layers, pooling layers, and fully connected layers.
+- Data preprocessing: The MNIST dataset is preprocessed using torchvision `transforms` to normalize the images and convert them into tensors.
+- Model architecture: A deep neural network is implemented using PyTorch's `nn.Module` class. The architecture consists of multiple layers, including convolutional layers, pooling layers, and fully connected layers.
 - Training: The model is trained using the selected loss function and optimizer. Training includes iterating over the training data in batches, calculating the loss, backpropagating the gradients, and updating the model's parameters.
 - Evaluation: The trained model is evaluated on the test set to measure its performance. The accuracy metric is used to assess how well the model predicts the correct digit labels.
-- Model saving: The trained model is saved to disk using the torch.save() function, allowing it to be reused later without the need for retraining.
+- Model saving: The trained model is saved to disk using the `torch.save()` function, allowing it to be reused later without the need for retraining.
 
 ## Dependencies
 
